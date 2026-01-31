@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: #0f172a;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact span, .contact a {
+  display: block;
+  color: #cbd5e1;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #0f172a;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 5px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #e2e8f0;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #0f172a;
+  color: white;
+}
